@@ -21,5 +21,5 @@ inputs:
     description: 'CI build ID. Must be provided along with project-id to identify a run.'
     required: false
 runs:
-  using: 'node16'
+  using: 'node24'
   main: 'dist/index.js'
